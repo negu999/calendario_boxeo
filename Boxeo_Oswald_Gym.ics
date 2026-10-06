@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ChatGPT//Horario Boxeo Oswald Gym//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Boxeo Oswald Gym
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VEVENT
+UID:boxeo-oswald-1@chatgpt.local
+DTSTAMP:20261006T093852Z
+DTSTART;TZID=Europe/Madrid:20261007T100000
+DTEND;TZID=Europe/Madrid:20261007T110000
+RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR
+SUMMARY:Boxeo — mañana
+LOCATION:Oswald Gym, Girona
+DESCRIPTION:Clase de boxeo. Elige cada semana la sesión que te vaya mejor.
+END:VEVENT
+BEGIN:VEVENT
+UID:boxeo-oswald-2@chatgpt.local
+DTSTAMP:20261006T093852Z
+DTSTART;TZID=Europe/Madrid:20261007T170000
+DTEND;TZID=Europe/Madrid:20261007T180000
+RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR
+SUMMARY:Boxeo — tarde
+LOCATION:Oswald Gym, Girona
+DESCRIPTION:Clase de boxeo. Elige cada semana la sesión que te vaya mejor.
+END:VEVENT
+BEGIN:VEVENT
+UID:boxeo-oswald-3@chatgpt.local
+DTSTAMP:20261006T093852Z
+DTSTART;TZID=Europe/Madrid:20261006T200000
+DTEND;TZID=Europe/Madrid:20261006T210000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,TH
+SUMMARY:Boxeo — noche
+LOCATION:Oswald Gym, Girona
+DESCRIPTION:Clase de boxeo. Elige cada semana la sesión que te vaya mejor.
+END:VEVENT
+END:VCALENDAR
